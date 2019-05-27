@@ -1,4 +1,5 @@
-# @staticmethod或@classmethod
+# 0527  
+@staticmethod或@classmethod
 
 一般来说，要使用某个类的方法，需要先实例化一个对象再调用方法。
 
