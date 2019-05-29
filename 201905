@@ -19,3 +19,8 @@
 而@classmethod因为持有cls参数，可以来调用类的属性，类的方法，实例化对象等，避免硬编码。
 
 https://blog.csdn.net/handsomekang/article/details/9615239
+
+
+#0529
+json 完成
+https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2622f632
