@@ -23,4 +23,13 @@ https://blog.csdn.net/handsomekang/article/details/9615239
 
 #0529
 json 完成
-https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2622f632
+https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2622f632d
+
+
+  M: model 控制資料庫相關  (data)
+  V：templates  (html)  （前端)
+  C: controller (視圖) request, response  利用 controller 把  view 帶到 Model
+ 
+#-----------------------
+(** kwargs) ={}
+(* args)    =()
