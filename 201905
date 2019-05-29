@@ -36,3 +36,16 @@ https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2
 #-----------------------
   first_curly_index = result2.index('{')
   last_curly_index = result2[::-1].index('}')
+
+#------------------------
+def test():
+    list1 = ['192.168.1.1', '192.168.1.2', '192.168.1.3', '192.168.1.4']
+    a = {}
+    list2 = []
+    while len(list2) < len(list1):
+        for num in list1:
+            a = {'IPaddr': num}
+            list2.append(a)
+    return list2
+#--------------------- 
+
