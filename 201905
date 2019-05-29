@@ -33,3 +33,6 @@ https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2
 #-----------------------
 (** kwargs) ={}
 (* args)    =()
+#-----------------------
+  first_curly_index = result2.index('{')
+  last_curly_index = result2[::-1].index('}')
