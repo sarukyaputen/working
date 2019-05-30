@@ -70,3 +70,10 @@ ans :{'server': [{'hostname': '192.168.1.1'}, {'hostname': '192.168.1.2'}, {'hos
         GameBucket.query.get(1)
         db.session.query(GameBucket).filter(GameBucket.id).first()
 
+#------------------------------------------------------
+
+spyder_rs.set('abc', 1)
+        # spyder_rs.set('abcd', 2)
+        # print(spyder_rs.get('abcdddd'))
+        # spyder_rs.set('abcd', 1000)
+        # spyder_rs.set('abcde', 2000)
