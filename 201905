@@ -20,8 +20,20 @@
 
 https://blog.csdn.net/handsomekang/article/details/9615239
 
+#  0528
 
-#0529
+https://github.com/websocket-client/websocket-client
+docker exec -it confident_perlman bash
+docker run -v /Users/lego/test6.py:/app -d -it --rm ubuntu tail -f dev/null
+vim ~/.zshrc
+
+docker stop confident_perlman
+docker exec -it confident_perlman bash
+
+#0529 
+
+from  apt -get 
+
 json 完成
 https://github.com/sarukyaputen/Python-/commit/196b86f6f495b80243dc430b2db91d2d2622f632d
 
