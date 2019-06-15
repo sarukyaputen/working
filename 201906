@@ -2,3 +2,8 @@
 
 import config
 app.config.from.object(config)
+#------------------------------
+
+@app.route('/ddd/<id>')
+def tt(id):
+    return u'dddddd:%s' %id
