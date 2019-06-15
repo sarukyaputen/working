@@ -3,7 +3,29 @@
 import config
 app.config.from.object(config)
 #------------------------------
-
+url 傳遞參數
+1. 必須在''
+2. 視圖參數中,必須放 同名的url 參數
 @app.route('/ddd/<id>')
 def tt(id):
     return u'dddddd:%s' %id
+#-------------------------------
+反轉 url
+@app.route('/')
+def index():
+    print(url_for('my_list'))
+    print(url_for('ddd', id='abc'))
+    return 'hello world'
+
+@app.route('/list/')
+def my_list():
+    return 'list'
+
+@app.route('/ddd/<id>/')
+def ddd(id):
+    return u'dddddd:%s' %id
+
+1頁面重新定向會使用到反轉
+2模板中也會用到反轉
+ㄎ
+
